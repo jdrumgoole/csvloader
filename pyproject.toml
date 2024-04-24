@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "csvloader"
+version = "0.1.0"
+description = "A CSV loader that loads CSVs into Postgres"
+authors = ["Joe Drumgoole <joe@joedrumgoole.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+reflex = "^0.4.9"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
